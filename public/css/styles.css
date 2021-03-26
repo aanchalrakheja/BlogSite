@@ -69,6 +69,16 @@ body {
 
 }
 
+/* styles for the logo */
+#logo{
+  max-height:5%;
+  max-width:5%;
+  float:left;
+  margin-left:0px;
+  padding:0px;
+  margin-right:20px;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     height: 10vh;
@@ -165,6 +175,10 @@ a::after {
   transition: 0s;
 }
 
+.btn-sm
+{
+  margin:5px;
+}
 /* login page styles */
 
 .log-in-btn {
