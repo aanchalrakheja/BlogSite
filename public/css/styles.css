@@ -69,6 +69,21 @@ body {
 
 }
 
+/* styles for the logo */
+#logo{
+  max-height:5%;
+  max-width:5%;
+  margin-right:2rem;
+}
+
+@media screen and (max-width: 800px)
+{
+  #logo{
+    max-height:9%;
+    max-width:9%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     height: 10vh;
